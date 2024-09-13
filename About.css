@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.personal-info, .work-experience, .section {
+    margin-top: 40px;
+    background-color: #fdf5f5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 15px; 
+}
+
+.personal-info h3, .section h3 {
+    font-weight: 300;
+    font-size: 20px; 
+
+}
+
+.personal-info p, .section p {
+    margin: 0;
+}
+
+.expand-btn {
+    float: right;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+
+.collapse.show {
+    margin-top: 10px;
+}
+
+.section {
+    border-left: 5px solid #d3adad;
+}
+
+.nav-link {
+    color: #555;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #000;
+}

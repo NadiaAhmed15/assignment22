@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 50vh;
+    
+    
+}
+
+.gray-box {
+    background-color: #e0e0e0; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 500px; 
+    text-align: left; 
+    font-family: 'Edu NSW ACT Foundation', cursive, sans-serif;
+}
+
+
+.contact-info {
+    margin-top: 40px; }
+    
+
